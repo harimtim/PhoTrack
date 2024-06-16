@@ -1,2 +1,8 @@
 # PhoTrack
-PhoTrack can get phonenumber location, timezone and service provider.
+PhoTrack can get phonenumber location, timezone and service provider. You can use PhoTrack, to get essential informations about every Phonenumber. This Tool is just for educational and learning purposes!
+
+## Installation
+
+```
+pip install photrack
+```
