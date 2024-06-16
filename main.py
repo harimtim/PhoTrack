@@ -9,7 +9,7 @@ import os
 
 #https://github.com/harimtim/PhoTrack
 
-output = "Location"
+output = 'Location'
 
 def get_location():
     global output
