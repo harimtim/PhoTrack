@@ -1,2 +1,0 @@
-import photrack
-photrack.main()
