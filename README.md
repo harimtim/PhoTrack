@@ -6,3 +6,12 @@ PhoTrack can get phonenumber location, timezone and service provider. You can us
 ```
 pip install photrack
 ```
+
+## Usage 
+```
+import photrack
+
+photrack.main()
+
+#Its that easy to start Photrack as standalone, more updates coming soon.
+```
