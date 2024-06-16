@@ -3,7 +3,7 @@ __pycache__/
 venv/
 .env
 tests
-pyproject.toml
+.toml
 photrack/
 build/
 dist/
