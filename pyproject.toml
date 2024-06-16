@@ -1,0 +1,33 @@
+[project]
+name = "photrack"
+description = "PhoTrack can get phonenumber location, timezone and service provider. You can use PhoTrack, to get essential informations about every Phonenumber. This Tool is just for educational and learning purposes!"
+requires-python = ">=3"
+license = {text = "MIT"}
+
+readme = "README.md"
+keywords = ["photrack", "phone", "tracking"]
+authors = [
+    { name = "harimtim" }
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["dependencies", "version"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
+version = {attr = "photrack.__version__"}
+
+[tool.setuptools]
+packages = ["photrack"] 
+
+[project.urls]
+GitHub = "https://github.com/harimtim/PhoTrack"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

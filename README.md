@@ -8,10 +8,17 @@ pip install photrack
 ```
 
 ## Usage 
+
+Standalone:
+
+```
+py -m photrack
+```
+
+Module:
+
 ```
 import photrack
-
-photrack.main()
-
-#Its that easy to start Photrack as standalone, more updates coming soon.
+>>> photrack.main()
+# To start the default tool, updates to module using coming soon.
 ```
