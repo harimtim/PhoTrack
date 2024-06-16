@@ -4,6 +4,8 @@ venv/
 .env
 tests
 
+photrack/
+
 build/
 dist/
 *.egg-info/
