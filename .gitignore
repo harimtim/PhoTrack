@@ -3,12 +3,10 @@ __pycache__/
 venv/
 .env
 tests
-
+pyproject.toml
 photrack/
-
 build/
 dist/
 *.egg-info/
 *.egg
-
 docs/_build
