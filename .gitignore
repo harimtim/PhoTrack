@@ -1,5 +1,5 @@
 /*photrack
 /*.toml
-/egg-info
+photrack.egg-info/
 /requirements.txt
 /dist
